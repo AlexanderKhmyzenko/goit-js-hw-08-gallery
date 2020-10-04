@@ -1,0 +1,59 @@
+// Задача-3
+
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+.gallery {
+  display: flex;
+}
+
+// Задача-6
+
+#validation-input {
+  display: block;
+  border: 3px solid #bdbdbd;
+}
+
+#validation-input.valid {
+  border-color: #4caf50;
+}
+
+#validation-input.invalid {
+  border-color: #f44336;
+}
+
+// Задача-7
+
+.class_1 {
+  font-size: unset;
+}
+.class_2 {
+  font-size: 20px;
+}
+.class_3 {
+  font-size: 30px;
+}
+.class_4 {
+  font-size: 40px;
+}
+.class_5 {
+  font-size: 50px;
+}
+.class_6 {
+  font-size: 60px;
+}
